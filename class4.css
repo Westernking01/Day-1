@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: whitesmoke;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 65px;
+    background: black;
+    color: white;
+    padding-top: 20px;
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+.menu-item{
+    cursor: pointer;
+}
+
+.main{
+    flex: 1;
+    padding: 40px ;
+    text-align: center;
+}
+ 
+.main h1{
+    margin:0 ;
+    font-size: 32px;
+}
+.subtitle{
+      color: #666;
+      margin-bottom: 40px;
+      margin-top: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 0 80ox;
+}
+
+.card{
+background: white;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0 2px 2px rgb(0, 0, 0 ,0.1);
+cursor: pointer;
+transition: 0.2s;
+}
